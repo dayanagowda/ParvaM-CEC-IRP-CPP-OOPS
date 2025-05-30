@@ -15,7 +15,7 @@ int main(){
     cout<<"Enter your age:";
     cin>>age;
     cout<<"Enter your semester:";
-    cin>>Sem;
+    cin>>sem;
 
     cout<<"your name is"<<first_name<<",you're"<<age<<"years old.you're studying in"<<college<<"college in"<<branch<<"branch in"<<sem<<"semester";
 }

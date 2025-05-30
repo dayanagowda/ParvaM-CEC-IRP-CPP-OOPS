@@ -1,0 +1,12 @@
+The car details are as follows: 
+car brand: BMW
+car model: M3
+car variant: petrol
+launch year: 2022
+offer price:Rs. 2250000
+car has these features: 
+	1. dfyh
+	2. dxgf
+	3. xfhg
+	4. xfyh
+-----------------------------------

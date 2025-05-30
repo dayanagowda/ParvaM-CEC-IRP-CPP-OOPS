@@ -9,15 +9,15 @@ int sayHi(string name){ //function with parameter
     cout<<"Hi,"<< name;
 }
 
-int sayHi(string fname,, string 1name,int age){ //function with different parameter
-    cout<<"Hi,"<< fname<<" "<<1name<<",age:"<<age<<endl;
+int sayHi(string fname,string name,int age){ //function with different parameter
+    cout<<"Hi,"<< fname<<" "<<name<<",age:"<<age<<endl;
 }
 
 int main(){
     string FirstName,lastName,friendName;
     int Age;
     cout<<"Enter your first name:";
-    cin>>firstName;
+    cin>>FirstName;
     cout<<"Enter your last name:";
     cin>>lastName;
     cout<<"Enter your age:";
@@ -25,8 +25,8 @@ int main(){
     cout<<"Enter your friend's name:";
     cin>>friendName;
     sayHello(); //function call
-    sayHi(firstName); //function call with arguments
+    sayHi(FirstName); //function call with arguments
     sayHi(friendName);
-    greet(firstName,lastName,Age);
+    greet(FirstName,lastName,Age);
 }
  
